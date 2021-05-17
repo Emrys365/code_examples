@@ -4,6 +4,7 @@ A minimal example of decoding with a pretrained ESPnet2 ASR model
 ### Prerequisite
 1. pip install espnet
 2. pip install espnet_model_zoo
+3. Install [sctk](https://github.com/Emrys365/code_examples/blob/master/espnet2/asr_decoding_with_pretrained_model/tools/install_sctk.sh), and add the `bin/` directory to $PATH
 
 ### Steps
 1. Copy this directory to anywhere you like, say ${demo_dir}

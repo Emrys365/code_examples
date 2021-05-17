@@ -77,6 +77,7 @@ if [ $# -ne 0 ]; then
     exit 2
 fi
 
+. ./path.sh
 . ./cmd.sh
 
 
