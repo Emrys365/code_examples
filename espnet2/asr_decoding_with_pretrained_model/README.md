@@ -21,8 +21,10 @@ A minimal example of decoding with a pretrained ESPnet2 ASR model
     │       ├── text
     │       ├── utt2spk
     │       └── wav.scp
-    ├── run_asr.sh
+    ├── path.sh
+    ├── run.sh
     ├── scripts/utils/show_asr_result.sh
+    ├── tools/install_sctk.sh
     └── utils/
     ```
     * **You need to create the following files by yourself:**
@@ -38,7 +40,7 @@ A minimal example of decoding with a pretrained ESPnet2 ASR model
     <details><summary>Expand to see an exmaple output</summary><div>
 
     ```bash
-    ./run.sh --inference_nj 10 --test_sets "test_16k_max" --download_model "Shinji Watanabe/librispeech_asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best"
+    $ ./run.sh --inference_nj 10 --test_sets "test_16k_max" --download_model "Shinji Watanabe/librispeech_asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best"
     
     2021-05-17T12:30:32 (run_asr.sh:105:main) Use Shinji Watanabe/librispeech_asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best for decoding and evaluation
     2021-05-17T12:30:47 (run_asr.sh:171:main) Stage 9: Decode with pretrained ASR model:

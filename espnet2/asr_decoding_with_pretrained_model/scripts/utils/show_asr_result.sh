@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Copied from https://github.com/espnet/espnet/blob/master/egs2/TEMPLATE/asr1/scripts/utils/show_asr_result.sh
 mindepth=0
 maxdepth=1
 

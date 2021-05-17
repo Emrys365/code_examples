@@ -1,6 +1,3 @@
-MAIN_ROOT=$PWD/../../..
-KALDI_ROOT=$MAIN_ROOT/tools/kaldi
-
 export PATH=$PWD/utils/:$PATH
 export LC_ALL=C
 
