@@ -8,7 +8,7 @@ A minimal example of decoding with a pretrained ESPnet2 ASR model
 
 ### Steps
 1. Copy this directory to anywhere you like, say ${demo_dir}
-2. Prepare a [Kaldi-style](https://kaldi-asr.org/doc/data_prep.html) data directory under ${demo_dir}, with the stucture like:
+2. Prepare a [Kaldi-style](https://kaldi-asr.org/doc/data_prep.html) data directory under ${demo_dir}/data, with the structure like:
     ```
     ${demo_dir}
     ├── cmd.sh
