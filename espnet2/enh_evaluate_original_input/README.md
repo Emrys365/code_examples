@@ -36,7 +36,7 @@ A minimal example of evaluating the original input signal with speech enhancemen
     cat exp/original_input_raw/RESULTS.TXT
     ```
 
-    <details><summary>Expand to see an exmaple output</summary><div>
+    <details><summary>Expand to see an example output</summary><div>
 
     ```bash
     $ ./run.sh --inference_nj 10 --ref_channel 0 --spk_num 2 --test_sets "dev test"

@@ -1,10 +1,8 @@
-A minimal example of decoding with a pretrained ESPnet2 ASR model
+A minimal example of extracting outlines from 
 -----
 
 ### Prerequisite
-1. pip install espnet
-2. pip install espnet_model_zoo
-3. Install [sctk](https://github.com/Emrys365/code_examples/blob/master/espnet2/asr_decoding_with_pretrained_model/tools/install_sctk.sh), and add the `bin/` directory to $PATH
+1. pip install PyPDF2
 
 ### Steps
 1. Copy this directory to anywhere you like, say ${demo_dir}
@@ -37,7 +35,7 @@ A minimal example of decoding with a pretrained ESPnet2 ASR model
     ./run.sh --inference_nj 10 --test_sets "test_16k_max another_test_set" --download_model "Shinji Watanabe/librispeech_asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best"
     ```
 
-    <details><summary>Expand to see an exmaple output</summary><div>
+    <details><summary>Expand to see an example output</summary><div>
 
     ```bash
     $ ./run.sh --inference_nj 10 --test_sets "test_16k_max" --download_model "Shinji Watanabe/librispeech_asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best"
@@ -74,22 +72,22 @@ A minimal example of decoding with a pretrained ESPnet2 ASR model
     - pytorch version: `pytorch 1.5.1`
     - Git hash: ``
     - Commit date: ``
-
+    
     ## librispeech_asr_train_asr_transformer_e18_raw_bpe_sp_valid.acc.best
     ### WER
-
+    
     |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
     |---|---|---|---|---|---|---|---|---|
     |inference_lm_lm_17epoch_asr_model_54epoch/test_16k_max|100|1645|87.3|10.5|2.2|3.3|16.0|73.0|
-
+    
     ### CER
-
+    
     |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
     |---|---|---|---|---|---|---|---|---|
     |inference_lm_lm_17epoch_asr_model_54epoch/test_16k_max|100|9922|95.2|0.9|3.8|1.4|6.2|73.0|
-
+    
     ### TER
-
+    
     |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
     |---|---|---|---|---|---|---|---|---|
     |inference_lm_lm_17epoch_asr_model_54epoch/test_16k_max|100|2692|79.1|7.2|13.7|2.0|22.9|73.0|
