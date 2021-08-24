@@ -53,7 +53,7 @@ A minimal example of adding outlines to a PDF file from a provided toc text file
 ### Steps
 1. Copy [add_outline_to_pdf.py](https://github.com/Emrys365/code_examples/blob/master/PyPDF2/add_outline_to_pdf_from_toc_text/add_outline_to_pdf.py) to anywhere you like, say `${demo_dir}`
 2. Prepare a PDF file to add outlines, say `${pdf_path}`
-3. Prepare a toc text file, with the structure like:
+3. Prepare a toc text file (say `${outline_txt}`), with the structure like:
 
     ```
     Introduction                            14
